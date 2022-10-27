@@ -1,0 +1,483 @@
+* {
+
+ margin: 0;
+ padding: 0;
+ outline: none;
+ text-decoration: none;
+ box-sizing: border-box;
+
+}
+
+
+    body {
+
+       background: rgb(62, 39, 71);
+
+    }
+
+                                       /*Main contenr*/
+
+   
+
+   li,ul,a {
+
+         color: white;
+         font-size: 21px;
+         font-family:'Times New Roman', Times, serif;
+         display: flex;
+                
+   }
+
+
+   .main-container {
+
+       background: rgb(107, 102, 228);
+       height: 20vh;
+
+   }
+
+
+   .nawbar {
+
+        padding-top: 5%;
+        padding-left: 55%;
+
+   }
+
+   li:hover {
+
+       border: solid  2px rgb(96, 21, 167);
+       background: rgb(40, 28, 92);
+       opacity: 0,1;
+       transition: smooth;
+       border: none;
+       border-radius: 100px;
+       
+   }
+
+    .nawbar-item {
+
+       margin-left:20px;
+
+    }
+
+  
+                          /*--Content--*/
+
+      .content-title {
+
+          background:rgb(28, 38, 70);
+          height: 76vh;
+             
+      }
+
+                     
+                       /*--showcase-container start--*/
+
+        .showcase_container {
+
+             margin-left: 12px;
+             padding-top: 7px;
+
+        }
+
+      .showcase-text1 {
+
+         color: white;
+         font-size: 39px;
+         font-weight: 700;
+         margin-left: 17%;
+         padding-top: 14%;
+
+      }
+
+
+       #game_link {
+
+           text-align: center;
+           font-size: 20px;
+           margin-left: 14px;
+           margin-top: -3px;
+
+       }
+
+
+       .showcase-text2 {
+
+         color:white;
+         font-size: 36px;
+         font-weight: 1200;
+         margin-left: 17%;
+         margin-top: 3%;
+
+       }
+          
+                         /*--showcase-container end--*/
+
+                    
+                          /*--game content start--*/
+
+                   .button_container {
+
+                       margin-right: -340px;
+
+                   }
+
+
+       .game_button_text {
+
+                       /*--size--*/
+
+                       width: 120px;
+                       height: 40px;
+                       background: rgb(109, 68, 128);
+                       border-radius: 18px;
+                       margin-left: 220px;
+                       margin-top: 49px;
+              
+                                     /*--text style--*/
+                            
+                         font-size: 16px;
+                         color: white;
+                         text-align: center;
+                         border:none; 
+
+       }
+
+
+       .game_button_text:hover {
+
+          background:rgb(43, 57, 138);
+          transition: 0.8s;
+
+       }
+ 
+                            /*--game content end--*/
+        
+
+                           /*--download-button start--*/
+
+                  .download_button_text {
+
+                     width: 120px;
+                     height: 40px;
+                     background: rgb(31, 39, 87);
+                     border-radius: 18px;
+                     margin-left: 2%;
+                     margin-top: -18%;
+            
+                                   /*--text style--*/
+                          
+                       font-size: 16px;
+                       color: white;
+                       text-align: center;
+                       border:none; 
+                      
+                  }
+
+
+                  .download_button_text:hover {
+
+                       background:rgb(23, 70, 114);
+                       transition: 0.8s;
+
+
+                  }
+
+               
+             
+                            /*--download-button end-->
+    
+                           /*--Skills start--*/
+
+  .skills-title {
+
+      background:rgb(84, 69, 150);
+      width: 100vh;
+
+  }
+
+
+        .skills-context {
+
+           color: white;
+           font-family:Arial, Helvetica, sans-serif;
+           font-size: 36px;
+           font-weight: 700;
+           text-align: center;
+           padding-top: 3%;
+           margin-left: 15px;
+
+        }
+
+
+                           /*--quadrate skiils contetn start---*/
+
+
+                           .content_WhatIDo {
+
+                               background: brown;
+                               width: 100%;
+                               height: 90vh;
+
+                           }
+
+
+                                           /* description block start */
+
+                      .quadrate-skill-container {
+
+                          margin-left: 236px;
+                          margin-top: 20px;
+
+
+                      }
+
+
+
+                 .quadrate_skill {
+
+                     width: 220px;
+                     height: 280px;
+                     background-color: chocolate;
+                     justify-content: center;
+                     margin-top: 80px;
+                     display:inline-block;
+                     margin-right: 60px;
+
+                 }
+
+
+
+.quadrate3{
+
+    width: 220px;
+    height: 280px;
+    background-color: chocolate;
+    margin-left: 820px;
+    margin-top: -280px;
+    border-radius: 12px;
+
+}
+
+
+
+.quadrate_1 {
+
+    width: 270px;
+    height: 290px;
+    background:rgb(120, 39, 99);
+    border-radius: 5px;
+    margin-top: 1%;
+
+}
+
+
+.description1 {
+
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    padding-top: 8%;
+
+}
+
+
+.text1 {
+
+    color: white;
+    text-align: center;
+    padding-top: 13%;
+    font-size: 17px;
+
+}
+
+
+                                             /* description block start */
+
+
+
+                                 /*--quadrate skiils contetn start---*/
+
+
+
+
+                                     /*quarate */
+
+
+
+
+
+
+
+
+
+
+                            /*--Skills end--*/
+
+
+
+
+                                   /*--about me--*/
+
+           .contact-me-container {
+
+               background: black;
+
+           }
+
+ 
+     .about_me_context {
+
+       font-size: 35px;
+       color: white;
+       font-weight: 700;
+       font-family:Arial, Helvetica, sans-serif;
+       text-align: center;
+       padding-top: 3%;
+       margin-left: 19px;
+
+     }
+
+
+      .about-me-title {
+
+        background: black;
+        height: 90vh;
+    
+       }
+
+
+
+    .about_me_image {
+
+       width: 280px;
+       height: 340px;
+       margin-left: 14%;
+       margin-top: 9%;
+
+    }
+
+
+    
+    .about_me_description_text {
+
+     color: white;
+     font-size: 15px;
+     margin-left: 44%;
+     margin-top: -23%;
+     width: 400px;  
+     height: 500px;  
+ 
+    }
+
+
+
+
+
+                                          /*--Contact me start--*/
+
+
+     .contact-me-title {
+
+         background: black;
+         height: 67vh;
+
+     }
+
+
+
+   .contact-me-context  {
+
+        font-size: 35px;
+        color: white;
+        font-weight: 700;
+        font-family:Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-top: 45px;
+        margin-left: -20px;
+        border-radius: 12px;
+
+   }
+
+
+                              /*--quadrate 1--*/
+
+
+                 .contact-me-container {
+
+                     display: grid;
+                     background: aqua;
+                     height: 75vh;
+
+                 }
+
+
+                 .quadrate-container {
+
+                     display: grid;
+                     grid-template-columns: 400px 400px 400px;
+                     margin-left: 100px;
+                     margin-top: -130px;
+
+                 }
+
+
+
+      
+      .quadrate {
+
+         background: rgb(85, 62, 128);
+         width: 300px;
+         height: 250px;
+         margin-left: 12%;
+         margin-top: 120px;
+         border-radius: 6px;
+
+      }
+
+
+        .phone_number {
+
+         font-size: 22px;
+         font-family:Arial, Helvetica, sans-serif;
+         color: white;
+         text-align: center;
+         padding-top:22%;
+
+        }
+
+
+        #phone_img {
+
+           font-size: 32px;
+
+        }
+
+
+        .contact_me_text1 {
+
+         color: white;
+         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         font-size: 19px;
+         font-weight: 700;
+         text-align: center;
+         margin-top: 22px;
+
+        }
+
+
+
+
+
+
+
+
+
+                              
+
+
+
+
+               
+    
